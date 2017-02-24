@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<include src='../map/map.wxml' /> 
+<view class="container">
+      
+</view>
