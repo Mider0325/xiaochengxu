@@ -1,7 +1,12 @@
-page({
+Page({
     data:{
-        item:{
-            time:new Date(),
-        }
+         data:'2017-01-01',
+         longitude:112
+        },
+    onLoad:function(){
+        console.log(1)
+    },
+    onReady:function(){
+        console.log(2)
     }
 })

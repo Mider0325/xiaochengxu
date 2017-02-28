@@ -1,12 +1,39 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/map/map",
+    "pages/find/find",
+    "pages/mine/mine",
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
+    "backgroundTextStyle":"dark",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "守护者",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+   "tabBar": {
+    "selectedColor": "#3cc51f",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"images/index_normal.png",
+      "selectedIconPath":"images/index_press.png"
+    },
+    {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath":"images/find_normal.png",
+      "selectedIconPath":"images/find_press.png"
+    },
+    {
+      "pagePath": "pages/mine/mine",
+      "text": "个人中心",
+      "iconPath":"images/person_normal.png",
+      "selectedIconPath":"images/person_press.png"
+    }
+    ]
   }
 }

@@ -26,6 +26,10 @@ App({
     }
   },
   globalData:{
-    userInfo:null
+    userInfo:null,
+    locationInfo:null
+  },
+  getLocationInfo:{
+
   }
 })
