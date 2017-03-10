@@ -7,7 +7,7 @@
     controls="{{controls}}"
     bindcontroltap="controltap" 
     markers="{{markers}}" 
-    bindmarkertap="markertap" 
+    bindmarkertap="{{markertap}}" 
     polyline="{{polyline}}" 
     bindregionchange="regionchange" 
     show-location          
